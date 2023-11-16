@@ -14,5 +14,19 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    $name = 'Vincenzo';
+    $surname = 'Li Calzi';
+    return view('home', compact('name','surname'));
+});
+
+Route::get('/forum', function () {
+    return view('forum');
+});
+
+Route::get('/links', function () {
+    return view('links');
+});
+
+Route::get('/forum', function() {
+    return view('forum');
 });

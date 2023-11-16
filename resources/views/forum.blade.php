@@ -4,17 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../css/app.css">
-    <title>First steps</title>
+    <title>Forum</title>
 </head>
 <body>
-
-    <header>
-        <h1></h1>
-    </header>
-
-    <h1>HELLO</h1>
-
-    <footer>Made by {{$name}} {{$surname}}</footer>
+<h1>FORUM</h1>
 </body>
 </html>
