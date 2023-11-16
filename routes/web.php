@@ -16,7 +16,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     $name = 'Vincenzo';
     $surname = 'Li Calzi';
-    return view('home', compact('name','surname'));
+    $forum = '/forum';
+    $links = '/links';
+    $contacts = '/contacts';
+    return view('home', compact('name', 'surname', 'forum', 'links', 'contacts'));
 });
 
 Route::get('/forum', function () {
@@ -27,6 +30,6 @@ Route::get('/links', function () {
     return view('links');
 });
 
-Route::get('/forum', function() {
-    return view('forum');
+Route::get('/contacts', function() {
+    return view('contacts');
 });

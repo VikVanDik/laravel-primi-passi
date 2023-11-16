@@ -10,7 +10,12 @@
 <body>
 
     <header>
-        <h1></h1>
+       <ul>
+        <li><a href="http://127.0.0.1:8000">Home</a></li>
+        <li><a href="http://127.0.0.1:8000{{$forum}}">Forum</a></li>
+        <li><a href="http://127.0.0.1:8000{{$links}}">Link</a></li>
+        <li><a href="http://127.0.0.1:8000{{$contacts}}">Contatti</a></li>
+       </ul>
     </header>
 
     <h1>HELLO</h1>
